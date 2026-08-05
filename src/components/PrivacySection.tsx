@@ -22,11 +22,8 @@ export function PrivacySection() {
             <h3 className="text-4xl md:text-5xl font-semibold text-white mb-6 tracking-tight">
               Security by design.
             </h3>
-            <p className="text-lg text-zinc-400 mb-8 leading-relaxed">
-              Margastra handles psychometric assessment results and interview transcripts — sensitive personal data. We treat this data with the highest level of security and respect.
-            </p>
             <p className="text-lg text-zinc-400 leading-relaxed">
-              [Placeholder: Add 2-3 sentences on how assessment and interview data is stored and secured, who can access it, whether data is used to train models beyond the individual's own report, and relevant compliance standards (e.g. GDPR, FERPA, SOC 2).]
+              Margastra handles psychometric assessment results and interview transcripts — sensitive personal data. We treat this data with the highest level of security and respect.
             </p>
           </motion.div>
 

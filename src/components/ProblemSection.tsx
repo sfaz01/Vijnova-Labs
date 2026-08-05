@@ -64,7 +64,15 @@ export function ProblemSection() {
                 </div>
                 <div className="flex items-center gap-3 text-sm text-zinc-400">
                   <div className="w-1.5 h-1.5 rounded-full bg-zinc-600" />
-                  Opaque recommendations
+                  Opaque recommendations & black-box logic
+                </div>
+                <div className="flex items-center gap-3 text-sm text-zinc-400">
+                  <div className="w-1.5 h-1.5 rounded-full bg-zinc-600" />
+                  One-size-fits-all generic interface
+                </div>
+                <div className="flex items-center gap-3 text-sm text-zinc-400">
+                  <div className="w-1.5 h-1.5 rounded-full bg-zinc-600" />
+                  Assumption-driven automation
                 </div>
               </div>
             </div>
@@ -83,15 +91,23 @@ export function ProblemSection() {
               <div className="space-y-4 relative z-10">
                 <div className="flex items-center gap-3 text-sm text-zinc-300">
                   <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
-                  Designed around human decisions
+                  Designed around human decisions & workflow
                 </div>
                 <div className="flex items-center gap-3 text-sm text-zinc-300">
                   <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
-                  Integrated, end-to-end process
+                  Integrated, end-to-end process automation
                 </div>
                 <div className="flex items-center gap-3 text-sm text-zinc-300">
                   <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
                   Transparent, evidence-based oversight
+                </div>
+                <div className="flex items-center gap-3 text-sm text-zinc-300">
+                  <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                  Domain & industry-specific customisation
+                </div>
+                <div className="flex items-center gap-3 text-sm text-zinc-300">
+                  <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                  Cognitive mapping & human-validated control
                 </div>
               </div>
             </div>

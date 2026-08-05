@@ -2,7 +2,6 @@ import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { ProblemSection } from "@/components/ProblemSection";
 import { ProductSection } from "@/components/ProductSection";
-import { ProofSection } from "@/components/ProofSection";
 import { HowWeBuildSection } from "@/components/HowWeBuildSection";
 import { TechnologySection } from "@/components/TechnologySection";
 import { WhyVijnovaSection } from "@/components/WhyVijnovaSection";
@@ -21,7 +20,6 @@ export default function Home() {
         <HeroSection />
         <ProblemSection />
         <ProductSection />
-        <ProofSection />
         <HowWeBuildSection />
         <TechnologySection />
         <WhyVijnovaSection />

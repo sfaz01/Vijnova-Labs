@@ -32,7 +32,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-          className="text-5xl md:text-7xl font-semibold tracking-tight text-white mb-8 leading-[1.1]"
+          className="text-4xl sm:text-5xl md:text-7xl font-semibold tracking-tight text-white mb-8 leading-[1.1]"
         >
           The future belongs not to organisations with the most AI,{" "}
           <span className="text-zinc-500">

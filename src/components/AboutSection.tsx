@@ -37,7 +37,7 @@ export function AboutSection() {
           >
             <h2 className="text-xl font-medium text-white mb-6">Why We Started</h2>
             <p className="text-zinc-400 leading-relaxed text-lg">
-              Many professionals still struggle to find AI tools that genuinely improve how they work — they're often asked to adapt their workflow to the technology, rather than the other way around. We started Vijnova Labs to build software the other way: understand how professionals think and decide, then design AI that fits into that process.
+              Many professionals still struggle to find AI tools that genuinely improve how they work - they're often asked to adapt their workflow to the technology, rather than the other way around. We started Vijnova Labs to build software the other way: understand how professionals think and decide, then design AI that fits into that process.
             </p>
           </motion.div>
           <motion.div
@@ -49,7 +49,7 @@ export function AboutSection() {
           >
             <h2 className="text-sm font-semibold tracking-widest text-blue-500 uppercase mb-4">Our Mission</h2>
             <p className="text-2xl text-white font-medium leading-tight">
-              To turn advances in AI into evidence-based, domain-specific software that helps knowledge workers make better decisions and work more effectively — without replacing the judgment, accountability, and empathy only they can provide.
+              To turn advances in AI into evidence-based, domain-specific software that helps knowledge workers make better decisions and work more effectively - without replacing the judgment, accountability, and empathy only they can provide.
             </p>
           </motion.div>
         </div>

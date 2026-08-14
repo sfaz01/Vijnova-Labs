@@ -48,7 +48,7 @@ export function HeroSection() {
         >
           Vijnova Labs builds evidence-based AI software for knowledge work. We
           study how professionals actually make decisions, then design tools that
-          support that process — starting with career counselling.
+          support that process - starting with career counselling.
         </motion.p>
 
         <motion.div
@@ -57,9 +57,9 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
         >
-          <Button size="lg" className="w-full sm:w-auto h-12 px-8 bg-white text-black hover:bg-zinc-200 text-base rounded-full">
+          <a href="mailto:demo@vijnova.com?subject=Book%20a%20Demo" className="inline-flex items-center justify-center bg-white text-black hover:bg-zinc-200 px-8 py-4 text-lg rounded-full font-medium transition-colors">
             Book a Demo
-          </Button>
+          </a>
           <Button size="lg" variant="outline" className="w-full sm:w-auto h-12 px-8 border-white/10 hover:bg-white/5 text-base rounded-full gap-2">
             <Play className="w-4 h-4" />
             See How Margastra Works

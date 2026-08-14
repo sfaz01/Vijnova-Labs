@@ -30,14 +30,14 @@ export function Footer() {
               <Link href="#how-we-build" className="text-zinc-500 hover:text-white transition-colors text-sm">How We Build</Link>
               <Link href="#research" className="text-zinc-500 hover:text-white transition-colors text-sm">Research</Link>
               <Link href="#about" className="text-zinc-500 hover:text-white transition-colors text-sm">About</Link>
-              <Link href="#" className="text-zinc-500 hover:text-white transition-colors text-sm">Contact</Link>
+              <a href="mailto:hello@vijnova.com" className="text-zinc-500 hover:text-white transition-colors text-sm">Contact</a>
             </div>
             
             <div className="flex flex-col gap-4">
               <h4 className="text-white font-medium mb-2">Connect</h4>
-              <a href="#" className="text-zinc-500 hover:text-white transition-colors text-sm">LinkedIn</a>
-              <a href="#" className="text-zinc-500 hover:text-white transition-colors text-sm">Email</a>
-              <a href="#" className="text-zinc-500 hover:text-white transition-colors text-sm">Blog / Research</a>
+              <a href="https://linkedin.com/company/vijnovalabs" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-white transition-colors text-sm">LinkedIn</a>
+              <a href="mailto:hello@vijnova.com" className="text-zinc-500 hover:text-white transition-colors text-sm">Email</a>
+              <a href="#research" className="text-zinc-500 hover:text-white transition-colors text-sm">Blog / Research</a>
               <a href="#" className="text-zinc-500 hover:text-white transition-colors text-sm">Careers (future)</a>
             </div>
 

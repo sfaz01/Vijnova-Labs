@@ -87,10 +87,7 @@ export function HowWeBuildSection() {
                     <Icon className="w-8 h-8" />
                   </div>
                   
-                  {/* Number Indicator */}
-                  <div className="absolute top-0 right-1/2 lg:right-auto lg:left-16 translate-x-8 lg:translate-x-0 -translate-y-3 lg:-translate-y-3 w-6 h-6 rounded-full bg-black border border-white/10 flex items-center justify-center text-[10px] font-bold text-zinc-400 z-20">
-                    {step.id}
-                  </div>
+                  {/* Number Indicator Removed */}
 
                   {/* Connecting Line Foreground (Progress on hover) */}
                   {index < steps.length - 1 && (

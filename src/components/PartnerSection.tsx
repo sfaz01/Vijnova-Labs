@@ -50,15 +50,12 @@ export function PartnerSection() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" className="w-full sm:w-auto h-12 px-8 bg-blue-600 hover:bg-blue-500 text-white border-0 text-base rounded-full shadow-[0_0_20px_rgba(37,99,235,0.3)]">
-                Book a Demo
-              </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto h-12 px-8 border-white/20 hover:bg-white/10 text-base rounded-full">
-                Schedule a Discovery Call
-              </Button>
+              <a href="mailto:demo@vijnova.com?subject=Book%20a%20Demo" className="inline-flex items-center justify-center rounded-full text-base font-medium h-12 px-8 bg-blue-600 hover:bg-blue-500 text-white transition-colors">Book a Demo</a>
+              <a href="mailto:hello@vijnova.com?subject=Discovery%20Call" className="inline-flex items-center justify-center rounded-full text-base font-medium h-12 px-8 border border-white/20 hover:bg-white/10 text-white transition-colors">Schedule a Discovery Call</a>
             </div>
             
             <p className="mt-8 text-sm text-zinc-500">
-              Interested in research collaborations, pilot programmes, or institutional partnerships? <a href="#" className="text-blue-400 hover:underline">Get in touch.</a>
+              Interested in research collaborations, pilot programmes, or institutional partnerships? <a href="mailto:hello@vijnova.com" className="text-blue-400 hover:underline">Get in touch.</a>
             </p>
           </div>
         </motion.div>

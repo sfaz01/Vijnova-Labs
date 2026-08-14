@@ -34,9 +34,14 @@ export function ResearchSection() {
               As Vijnova grows, we intend to publish white papers, technical reports, and practical insights from our product development.
             </p>
             
-            <div className="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/10 text-sm font-medium text-zinc-400 bg-white/5 cursor-not-allowed">
-              Publications (Coming Soon)
-            </div>
+            <a 
+              href="/HPWT-DISSERTATION.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-full border border-white/10 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors cursor-pointer shadow-lg hover:shadow-blue-500/20"
+            >
+              Read My Dissertation
+            </a>
           </motion.div>
 
           <motion.div

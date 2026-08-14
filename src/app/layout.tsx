@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Vijnova Labs — Designing the next generation of organisational intelligence.",
+  title: "Vijnova Labs | Designing the next generation of organisational intelligence.",
   description: "Vijnova Labs builds evidence-based AI software for knowledge work.",
 };
 

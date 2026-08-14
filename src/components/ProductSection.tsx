@@ -64,7 +64,7 @@ export function ProductSection() {
             Meet Margastra
           </h3>
           <p className="text-lg text-zinc-400 max-w-3xl mx-auto">
-            An integrated platform that helps career counsellors deliver more structured, evidence-based, and personalised guidance — while keeping professional judgment at the centre of every decision.
+            An integrated platform that helps career counsellors deliver more structured, evidence-based, and personalised guidance - while keeping professional judgment at the centre of every decision.
           </p>
         </div>
 

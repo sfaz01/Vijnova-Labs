@@ -23,7 +23,7 @@ export function PrivacySection() {
               Security by design.
             </h3>
             <p className="text-lg text-zinc-400 leading-relaxed">
-              Margastra handles psychometric assessment results and interview transcripts — sensitive personal data. We treat this data with the highest level of security and respect.
+              Margastra handles psychometric assessment results and interview transcripts - sensitive personal data. We treat this data with the highest level of security and respect.
             </p>
           </motion.div>
 

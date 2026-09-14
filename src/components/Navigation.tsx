@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import Link from "next/link";
-import { Button } from "./ui/button";
 
 export function Navigation() {
   const { scrollY } = useScroll();
@@ -60,10 +59,7 @@ export function Navigation() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button variant="ghost" className="hidden md:inline-flex text-zinc-400 hover:text-white">
-            Sign In
-          </Button>
-          <a 
+          <a
             href="mailto:demo@vijnova.com?subject=Book%20a%20Demo"
             className="hidden md:inline-flex px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-zinc-200 transition-colors"
           >

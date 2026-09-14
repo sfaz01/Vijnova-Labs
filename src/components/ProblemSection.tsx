@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Workflow, Bot, AlertCircle, CheckCircle2 } from "lucide-react";
+import { SpotlightCard } from "./ui/spotlight-card";
 
 export function ProblemSection() {
   return (
@@ -43,7 +44,7 @@ export function ProblemSection() {
             className="grid gap-6"
           >
             {/* Generic AI Card */}
-            <div className="p-6 rounded-2xl border border-white/5 bg-white/[0.02] backdrop-blur-sm relative overflow-hidden">
+            <SpotlightCard glowColor="rgba(239,68,68,0.08)" className="p-6 rounded-2xl border border-white/5 bg-white/[0.02] backdrop-blur-sm">
               <div className="absolute top-0 right-0 p-4 opacity-10">
                 <AlertCircle className="w-24 h-24 text-red-500" />
               </div>
@@ -75,10 +76,10 @@ export function ProblemSection() {
                   Assumption-driven automation
                 </div>
               </div>
-            </div>
+            </SpotlightCard>
 
             {/* Vijnova Approach Card */}
-            <div className="p-6 rounded-2xl border border-blue-500/20 bg-blue-500/[0.03] backdrop-blur-sm relative overflow-hidden shadow-[0_0_40px_rgba(59,130,246,0.05)]">
+            <SpotlightCard className="p-6 rounded-2xl border border-blue-500/20 bg-blue-500/[0.03] backdrop-blur-sm shadow-[0_0_40px_rgba(59,130,246,0.05)]">
                <div className="absolute top-0 right-0 p-4 opacity-10">
                 <CheckCircle2 className="w-24 h-24 text-blue-500" />
               </div>
@@ -110,7 +111,7 @@ export function ProblemSection() {
                   Cognitive mapping & human-validated control
                 </div>
               </div>
-            </div>
+            </SpotlightCard>
 
           </motion.div>
         </div>

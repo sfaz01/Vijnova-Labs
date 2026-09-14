@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import { SpotlightCard } from "./ui/spotlight-card";
 
 const values = [
   {
@@ -65,13 +66,14 @@ export function AboutSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="p-6 rounded-2xl border border-white/5 bg-white/[0.02]"
               >
-                <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center mb-6">
-                  <Check className="w-4 h-4 text-blue-500" />
-                </div>
-                <h3 className="text-lg font-medium text-white mb-3">{value.title}</h3>
-                <p className="text-zinc-400 text-sm leading-relaxed">{value.desc}</p>
+                <SpotlightCard className="h-full p-6 rounded-2xl border border-white/5 bg-white/[0.02] transition-colors hover:border-blue-500/20">
+                  <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center mb-6">
+                    <Check className="w-4 h-4 text-blue-500" />
+                  </div>
+                  <h3 className="text-lg font-medium text-white mb-3">{value.title}</h3>
+                  <p className="text-zinc-400 text-sm leading-relaxed">{value.desc}</p>
+                </SpotlightCard>
               </motion.div>
             ))}
           </div>

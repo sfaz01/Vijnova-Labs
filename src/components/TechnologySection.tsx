@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MessageSquare, FileOutput, Share2, Scale, Eye } from "lucide-react";
+import { SpotlightCard } from "./ui/spotlight-card";
 
 const techStack = [
   {
@@ -81,13 +82,18 @@ export function TechnologySection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: i * 0.1 }}
-                    className={`p-6 rounded-3xl border bg-gradient-to-br bg-[#050505] backdrop-blur-md hover:scale-[1.02] transition-transform ${tech.borderColor} ${isCenter ? 'md:col-span-2 lg:col-span-3 max-w-xl mx-auto' : ''}`}
+                    className={isCenter ? 'md:col-span-2 lg:col-span-3 max-w-xl mx-auto' : ''}
                   >
-                    <div className={`w-12 h-12 rounded-xl mb-6 flex items-center justify-center bg-gradient-to-br ${tech.color} border ${tech.borderColor}`}>
-                      <Icon className="w-6 h-6 text-white" />
-                    </div>
-                    <h4 className="text-xl font-medium text-white mb-2">{tech.title}</h4>
-                    <p className="text-zinc-400 text-sm leading-relaxed">{tech.desc}</p>
+                    <SpotlightCard
+                      glowColor="rgba(255,255,255,0.1)"
+                      className={`p-6 rounded-3xl border bg-gradient-to-br bg-[#050505] backdrop-blur-md hover:scale-[1.02] transition-transform ${tech.borderColor}`}
+                    >
+                      <div className={`w-12 h-12 rounded-xl mb-6 flex items-center justify-center bg-gradient-to-br ${tech.color} border ${tech.borderColor}`}>
+                        <Icon className="w-6 h-6 text-white" />
+                      </div>
+                      <h4 className="text-xl font-medium text-white mb-2">{tech.title}</h4>
+                      <p className="text-zinc-400 text-sm leading-relaxed">{tech.desc}</p>
+                    </SpotlightCard>
                   </motion.div>
                 )
               })}

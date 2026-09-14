@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Settings2, BookOpen, Briefcase, Blocks } from "lucide-react";
+import { SpotlightCard } from "./ui/spotlight-card";
 
 const reasons = [
   {
@@ -49,17 +50,18 @@ export function WhyVijnovaSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.1 }}
-                className="flex gap-6"
               >
-                <div className="flex-shrink-0 mt-1">
-                  <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
-                    <Icon className="w-5 h-5 text-zinc-300" />
+                <SpotlightCard className="flex gap-6 p-6 rounded-2xl border border-transparent hover:border-white/10 transition-colors">
+                  <div className="flex-shrink-0 mt-1">
+                    <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
+                      <Icon className="w-5 h-5 text-zinc-300" />
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h4 className="text-xl font-medium text-white mb-3">{reason.title}</h4>
-                  <p className="text-zinc-400 leading-relaxed">{reason.desc}</p>
-                </div>
+                  <div>
+                    <h4 className="text-xl font-medium text-white mb-3">{reason.title}</h4>
+                    <p className="text-zinc-400 leading-relaxed">{reason.desc}</p>
+                  </div>
+                </SpotlightCard>
               </motion.div>
             )
           })}

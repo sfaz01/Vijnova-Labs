@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Shield, Lock, Server } from "lucide-react";
+import { SpotlightCard } from "./ui/spotlight-card";
 
 export function PrivacySection() {
   return (
@@ -34,11 +35,11 @@ export function PrivacySection() {
              transition={{ duration: 0.6, delay: 0.2 }}
              className="grid gap-4"
           >
-            <div className="p-6 rounded-2xl border border-white/5 bg-[#050505] flex items-center gap-6">
+            <SpotlightCard className="p-6 rounded-2xl border border-white/5 bg-[#050505] flex items-center gap-6 hover:border-blue-500/20 transition-colors">
               <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center relative">
                  <Lock className="w-5 h-5 text-blue-500" />
-                 <motion.div 
-                   animate={{ rotate: [0, 10, -10, 0] }} 
+                 <motion.div
+                   animate={{ rotate: [0, 10, -10, 0] }}
                    transition={{ repeat: Infinity, duration: 3, ease: "easeInOut", repeatDelay: 5 }}
                    className="absolute inset-0 border border-blue-500/30 rounded-full"
                  />
@@ -47,9 +48,9 @@ export function PrivacySection() {
                 <h4 className="text-white font-medium mb-1">End-to-End Encryption</h4>
                 <p className="text-sm text-zinc-500">Data is encrypted at rest and in transit.</p>
               </div>
-            </div>
+            </SpotlightCard>
 
-            <div className="p-6 rounded-2xl border border-white/5 bg-[#050505] flex items-center gap-6">
+            <SpotlightCard glowColor="rgba(168,85,247,0.15)" className="p-6 rounded-2xl border border-white/5 bg-[#050505] flex items-center gap-6 hover:border-purple-500/20 transition-colors">
               <div className="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center">
                  <Server className="w-5 h-5 text-purple-500" />
               </div>
@@ -57,9 +58,9 @@ export function PrivacySection() {
                 <h4 className="text-white font-medium mb-1">Isolated Environments</h4>
                 <p className="text-sm text-zinc-500">Your data is never mixed with public training data.</p>
               </div>
-            </div>
+            </SpotlightCard>
 
-            <div className="p-6 rounded-2xl border border-white/5 bg-[#050505] flex items-center gap-6">
+            <SpotlightCard glowColor="rgba(16,185,129,0.15)" className="p-6 rounded-2xl border border-white/5 bg-[#050505] flex items-center gap-6 hover:border-emerald-500/20 transition-colors">
               <div className="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center">
                  <Shield className="w-5 h-5 text-emerald-500" />
               </div>
@@ -67,7 +68,7 @@ export function PrivacySection() {
                 <h4 className="text-white font-medium mb-1">Strict Access Controls</h4>
                 <p className="text-sm text-zinc-500">Only authorized professionals can view sensitive insights.</p>
               </div>
-            </div>
+            </SpotlightCard>
           </motion.div>
         </div>
       </div>
